@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projects jaza</title>
     <!-- Logo e iconos -->
-    <link rel="shortcut icon" href="/img/"/>
+    <link rel="shortcut icon" href="/img/Custom-Icon-Design-Flatastic-11-Application.ico"/>
     <link rel="stylesheet" href="./styles/fontawesome-free-5.15.3-web/css/all.min.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,54 +26,84 @@
                 </h1>
             </div>
         </header>
-        <section class="section margin-interno">
-            <div class="articulos">
-                <article class="article">
-                    <h2>tutorial point cloud from depth images </h2>
-                    <img src="/img/captura-web-page-point-cloud.PNG" alt="image">
-                    <h3>20 diciembre 2020</h3>
-                    <p>Se presentan varios procedimientos que pueden hacerse a partir de una nube de puntos capturada con la cámara ToF helios. La nube de puntos aquí presentada corresponde a un tanque de gas, al cual, se desea encontrar su diámetro y su
-                        altura.
-                    </p>
-                    <a href="https://web-page-depth-to-point-cloud.herokuapp.com/" target="_blank">Show web page</a>
-                </article>
-                <article class="article">
-                    <h2>POINT CLOUD FROM PROFILING LASER IMAGES</h2>
-                    <img src="/img/point-cloud-profiling-laser.PNG" alt="image">
-                    <h3>20 marzo de 2021</h3>
-                    <p>DesktopApp-FlirCamera es una aplicación que permite detectar diferentes cámaras FLIR conectadas en el equipo y facilita la adquisición de imágenes de estas cámaras, esto hace que la construccion de datsets de imágenes sea fácil.</p>
-                    <a href="https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser" target="_blank">Leer más</a>
-                </article>
-                <article class="article">
-                    <h2>Clasificador-Sanitarios-CNN-Keras</h2>
-                    <img src="/img/sanitarios-CNN.png" alt="image">
-                    <h3>10 Marzo de 2021</h3>
-                    <p>En este documento vamos a mostrar como acceder a una cámara FLIR desde python3.8 con ayuda del SDK de spinnaker y la libreria PySpin, adicional a esto también se muestran otras librerias que facilitan el uso de la libreria principal
-                        PySpin. Tambien se muestran unos ejemplos básicos del uso de estas librerias. Para empezar con el procedimiento es necesario tener previamente instalado unas dependecias.</p>
-                    <a href="https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras/blob/master/SanitaryClassification.ipynb" target="_blank">Leer más</a>
-                </article>
-                <article class="article">
-                    <h2>Deptherm-Inspection</h2>
-                    <img src="/img/captura-web-page-point-cloud.png" alt="image">
-                    <h3>10 Marzo de 2021</h3>
-                    <p>En este documento vamos a mostrar como acceder a una cámara FLIR desde python3.8 con ayuda del SDK de spinnaker y la libreria PySpin, adicional a esto también se muestran otras librerias que facilitan el uso de la libreria principal
-                        PySpin. Tambien se muestran unos ejemplos básicos del uso de estas librerias. Para empezar con el procedimiento es necesario tener previamente instalado unas dependecias.</p>
-                    <a href="https://github.com/Jjat00/Deptherm-Inspection" target="_blank">Leer más</a>
-                </article>
-                <article class="article">
-                    <h2>FuchiCovid</h2>
-                    <img src="/img/main_image.jpg" alt="image">
-                    <h3>10 Marzo de 2021</h3>
-                    <p>En este documento vamos a mostrar como acceder a una cámara FLIR desde python3.8 con ayuda del SDK de spinnaker y la libreria PySpin, adicional a esto también se muestran otras librerias que facilitan el uso de la libreria principal
-                        PySpin. Tambien se muestran unos ejemplos básicos del uso de estas librerias. Para empezar con el procedimiento es necesario tener previamente instalado unas dependecias.</p>
-                    <a href="" target="_blank">Show app</a>
-                </article>
-
-            </div>
-        </section>
+        <main>
+            <section class="section margin-interno">
+                <div class="articulos">
+                    <article class="article">
+                        <h2>tutorial point cloud from depth images </h2>
+                        <h3>20 diciembre 2020</h3>
+                        <div class="link-image">
+                            <a href="https://web-page-depth-to-point-cloud.herokuapp.com/" target="_blank">
+                                <img src="/img/captura-web-page-point-cloud.png" alt="image">
+                            </a>
+                        </div>
+                        
+                        
+                        <p>En esta página web se muestra un tutorial para transfomar una imagen de profunidad adquirida por desde una cámara kinect a una nube de puntos 3D. En la página primeramente se muestra una parte teórica, luego la explicación del código y finalmente algunas aplicaciones de nubes de puntos 3D.
+                        </p>
+                        <h3><span><span>Tecnologías:</span></span> Python, Vedo, Numpy, OpenCV, Kinect camera, HTML5, css, javascript, Heroku, git, github</h3>
+                        
+                        <a href="https://web-page-depth-to-point-cloud.herokuapp.com/" target="_blank">Show web page</a>
+                    </article>
+    
+                    <article class="article">
+                        <h2>POINT CLOUD FROM PROFILING LASER IMAGES</h2>
+                        <h3>6 enero de 2021</h3>
+                        <div class="link-image">
+                            <a href="https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser" target="_blank">
+                                <img src="/img/point-cloud-profiling-laser.png" alt="image">
+                            </a>
+                        </div>
+                        <p>Aquí se muestra un procedimiento para hacer una reconstrucción 3D a partir de imagenes 2D de perfilación laser. Hay un total de 59 imágenes, se calculan las coordeandas u,v del perfil en la imágen y luego se crea la coordenada z, finalmente se crea la nube de puntos 3D y se visualiza </p>
+                        <h3><span>Tecnologías:</span> Python, Vedo, Numpy, OpenCV, camara perfilador laser, git, github</h3>
+                        <a href="https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser" target="_blank">Leer más</a>
+                    </article>
+    
+                    <article class="article">
+                        <h2>Clasificador-Sanitarios-CNN</h2>
+                        <h3>10 enero de 2021</h3>
+                        <div class="link-image">
+                            <a href="https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras/blob/master/SanitaryClassification.ipynb" target="_blank">
+                                <img src="/img/sanitarios-CNN.png" alt="image">
+                            </a>
+                        </div>
+                        <p>Aquí se muesta la implementación de una red convolucional para clasificar 5 tipos de sanitarios, los cuales corresponden a cierta referencia: referenciaA, referenciaB, referenciaC, referenciaD y referenciaE. Esto con el fin de facilitar el etiquetado de cada sanitario a la hora de su producción.</p>
+                        <h3><span>Tecnologías:</span> Python, Keras, Tensorflow, OpenCV, Numpy, git, github</h3>
+                        <a href="https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras/blob/master/SanitaryClassification.ipynb" target="_blank">Leer más</a>
+                    </article>
+    
+                    <article class="article">
+                        <h2>Deptherm-Inspection</h2>
+                        <h3>20 Febrero de 2021</h3>
+                        <div class="link-image">
+                            <a href="https://github.com/Jjat00/Deptherm-Inspection" target="_blank">
+                                <img src="/img/captura-web-page-point-cloud.png" alt="image">
+                            </a>
+                        </div>
+                        <p>Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como manejo de usuarios, calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad. Permite visualización 2D y 3D.</p>
+                            <h3><span>Tecnologías:</span> Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer</h3>
+                        <a href="https://github.com/Jjat00/Deptherm-Inspection" target="_blank">Leer más</a>
+                    </article>
+    
+                    <article class="article">
+                        <h2>FuchiCovid</h2>
+                        <h3>20 noviembre de 2020</h3>
+                        <div class="link-image">
+                            <a href="" target="_blank">
+                                <img src="/img/main_image.jpg" alt="image">
+                            </a>
+                        </div>
+                        <p>FuchiCovid es una aplicación diseñada para el registro y seguimiento de pacientes diagnosticados con el virus COVID-19, la aplicación permite el manejo de 2 tipos de usuarios: funcionaros, encargados de registrar médicos y pacientes. Y médicos, encargados de visitar y registrar información de los pacientes. Los dos pueden ver un reporte general</p>
+                        <h3><span>Tecnologías:</span> Node.js, Vue.js, Express, PostgresSQL, Heroku</h3>
+                        <a href="" target="_blank">Show app</a>
+                    </article>
+                </div>
+            </section>            
+        </main>
+        
         <footer class="footer margin-interno">
             <nav class="pie">
-                <a href="#">Desarrollado por Jaime Aza</a>
+                <a href="#">Desarrollado por Jaime Aza - 2021</a>
             </nav>
         </footer>
     </div>

@@ -111,51 +111,60 @@ h1 {
 .section {
     background: #f7f7f7;
     display: flex;
+    
 }
 
 .articulos {
     background: #f7f7f7;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
     display: flex;
     flex-flow: row wrap;
 }
 
 .articulos h2{
-    color: #15004e;
+    color: #0d0329;
 }
 
 .article {
     flex: 1 1 40%;
     color: rgb(53, 53, 53);
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
     margin: 10px 10px 0 0;
     flex: 1 1 45%;
     background: #ffffff;
+    margin: 15px;
 }
 
 .article img {
+    padding: 10px;
     width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article p, h3{
+    text-align: justify;
 }
 
 .article a {
     color: #fff;
     font-size: 13px;
     padding: 10px;
-    background: rgb(19, 2, 51);
+    background: rgb(49, 49, 49);
     margin: 10px 0;
     display: inline-block;
 }
 
 .article a:hover {
-    background: rgb(0, 51, 146);
+    background: rgb(1, 28, 77);
 }
 
 h3 {
-    color: #343434;
-    font-size: 13px;
-    padding: 10px 0;
-    margin-top: -40px;
+    color: #202020;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-top: 5px;
 }
 
 h2 {
@@ -188,8 +197,6 @@ h4 {
     text-transform: uppercase;
 }
 
-
-
 .publicidad {
     width: 100%;
 }
@@ -219,6 +226,21 @@ h1.title-principal {
     background-color: #292929;
     font-size: 30px;
     padding-top: 10px;
+}
+
+.link-image a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.link-image a:hover {
+    background-color: #f7f7f7;
+}
+
+span{
+    color: rgb(3, 1, 37);
+    font-size: 20px;
 }
 
 @media all and (max-width: 1120px) {
