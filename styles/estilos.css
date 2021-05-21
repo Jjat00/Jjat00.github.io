@@ -20,7 +20,6 @@ p {
     align-items: center;
 }
 
-
 .margin-interno {
     padding: 0 50px;
 }
@@ -111,7 +110,6 @@ h1 {
 .section {
     background: #f7f7f7;
     display: flex;
-    
 }
 
 .articulos {
@@ -121,7 +119,7 @@ h1 {
     flex-flow: row wrap;
 }
 
-.articulos h2{
+.articulos h2 {
     color: #0d0329;
 }
 
@@ -143,7 +141,8 @@ h1 {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.article p, h3{
+.article p,
+h3 {
     text-align: justify;
 }
 
@@ -157,7 +156,7 @@ h1 {
 }
 
 .article a:hover {
-    background: rgb(1, 28, 77);
+    background: rgb(100, 100, 100);
 }
 
 h3 {
@@ -188,7 +187,6 @@ h2 {
     padding: 0 10px;
     letter-spacing: 2px;
 }
-
 
 h4 {
     background: #000;
@@ -228,19 +226,15 @@ h1.title-principal {
     padding-top: 10px;
 }
 
-.link-image a{
+.link-image a {
     text-decoration: none;
     padding: 0px;
     margin: 0;
     background-color: #f7f7f7;
 }
+
 .link-image a:hover {
     background-color: #f7f7f7;
-}
-
-span{
-    color: rgb(3, 1, 37);
-    font-size: 20px;
 }
 
 @media all and (max-width: 1120px) {
